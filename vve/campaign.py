@@ -9,7 +9,8 @@ from pathlib import Path
 PRODUCT_RANK_KEYS = {
     "turmeric_powder": ["091030"], "turmeric_fingers": ["091030"],
     "cashew_kernels": ["080132"],
-    "whole_spices": ["090411", "090831", "090710", "090611", "090619", "090931", "090921", "090961"],
+    "whole_spices": ["090411", "090831", "090710", "090611", "090619", "090931", "090921", "090961",
+                     "0908", "0907", "0906", "0909"],   # 4-digit headings used where 6-digit data is missing
 }
 LABELS = {"turmeric_powder": "turmeric powder", "turmeric_fingers": "turmeric fingers",
           "cashew_kernels": "cashew kernels", "whole_spices": "Indian whole spices"}

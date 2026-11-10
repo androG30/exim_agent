@@ -168,9 +168,9 @@
   "product": "whole_spices",
   "rank": 1,
   "country": "USA",
-  "import_value_usd_m": 196.4,
-  "imports_from_india_usd_m": "not stated",
-  "hs_codes_ranked": "090411",
+  "import_value_usd_m": 518.8,
+  "imports_from_india_usd_m": 67.0,
+  "hs_codes_ranked": "090411, 0906, 0907, 0908, 0909",
   "years": "2023",
   "hs_codes_without_data": "090831, 090710, 090611, 090619, 090931, 090921, 090961",
   "request": "Find 10 genuine Indian whole spices importers in USA"
@@ -178,45 +178,45 @@
  {
   "product": "whole_spices",
   "rank": 2,
+  "country": "China",
+  "import_value_usd_m": 363.4,
+  "imports_from_india_usd_m": 197.0,
+  "hs_codes_ranked": "090411, 0907, 0908, 0909",
+  "years": "2023",
+  "hs_codes_without_data": "090831, 090710, 090611, 090619, 090931, 090921, 090961",
+  "request": "Find 10 genuine Indian whole spices importers in China"
+ },
+ {
+  "product": "whole_spices",
+  "rank": 3,
   "country": "United Arab Emirates",
-  "import_value_usd_m": 79.09,
-  "imports_from_india_usd_m": "not stated",
-  "hs_codes_ranked": "090411",
+  "import_value_usd_m": 360.86,
+  "imports_from_india_usd_m": 84.0,
+  "hs_codes_ranked": "090411, 0906, 0907, 0908, 0909",
   "years": "2023",
   "hs_codes_without_data": "090831, 090710, 090611, 090619, 090931, 090921, 090961",
   "request": "Find 10 genuine Indian whole spices importers in United Arab Emirates"
  },
  {
   "product": "whole_spices",
-  "rank": 3,
-  "country": "Germany",
-  "import_value_usd_m": 78.74,
-  "imports_from_india_usd_m": "not stated",
-  "hs_codes_ranked": "090411",
-  "years": "2023",
-  "hs_codes_without_data": "090831, 090710, 090611, 090619, 090931, 090921, 090961",
-  "request": "Find 10 genuine Indian whole spices importers in Germany"
- },
- {
-  "product": "whole_spices",
   "rank": 4,
-  "country": "France",
-  "import_value_usd_m": 40.04,
-  "imports_from_india_usd_m": "not stated",
-  "hs_codes_ranked": "090411",
+  "country": "Saudi Arabia",
+  "import_value_usd_m": 251.66,
+  "imports_from_india_usd_m": 48.0,
+  "hs_codes_ranked": "090411, 0906, 0907, 0908, 0909",
   "years": "2023",
   "hs_codes_without_data": "090831, 090710, 090611, 090619, 090931, 090921, 090961",
-  "request": "Find 10 genuine Indian whole spices importers in France"
+  "request": "Find 10 genuine Indian whole spices importers in Saudi Arabia"
  },
  {
   "product": "whole_spices",
   "rank": 5,
-  "country": "Egypt",
-  "import_value_usd_m": 37.45,
+  "country": "Indonesia",
+  "import_value_usd_m": 240.68,
   "imports_from_india_usd_m": "not stated",
-  "hs_codes_ranked": "090411",
+  "hs_codes_ranked": "0907, 0909",
   "years": "2023",
   "hs_codes_without_data": "090831, 090710, 090611, 090619, 090931, 090921, 090961",
-  "request": "Find 10 genuine Indian whole spices importers in Egypt"
+  "request": "Find 10 genuine Indian whole spices importers in Indonesia"
  }
 ]

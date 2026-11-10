@@ -866,22 +866,25 @@
   "country": "United Arab Emirates",
   "city": "Dubai",
   "business_category": "importer, retailer, distributor, spice/masala manufacturer (Peacock brand)",
-  "distribution_network": "30+ outlets; supplies Dubai Duty Free, 5-star hotels, caterers; 9,000-9,500 food items from India (press)",
+  "distribution_network": "50 stores in the UAE (Khaleej Times, Oct 2021); wholesale and catering; Peacock brand 160+ products; export company in Mumbai",
   "independent_sources": [
-   "https://www.khaleejtimes.com/article/uniting-two-nations",
-   "https://gulfnews.com/business/gulf-food-al-adil-trading---a-familiar-name-in-every-indian-household-in-the-uae-1.1644724171207"
+   "https://gulfnews.com/business/gulf-food-al-adil-trading---a-familiar-name-in-every-indian-household-in-the-uae-1.1644724171207",
+   "https://khaleejtimes.com/business-technology-review/the-masala-king?amp=1",
+   "https://www.foodcodirectory.com/2021/09/al-adil-trading-co-llc-dubai-uae.html",
+   "https://www.khaleejtimes.com/article/uniting-two-nations"
   ],
   "products": [
    {
     "product": "turmeric_powder",
     "evidence": "category_only",
-    "forms": "Produces spices & masalas under Peacock brand; outlets have grinding mills",
+    "forms": "Turmeric powder (Tridge self-listing, 'Form & Cut: Powder'); Peacock spices",
     "sources_from_india": true,
     "supplier_countries": "India (buys directly from Indian farmers)",
     "evidence_text": "Khaleej Times 2022: 'more than 9,500 items of food stuff from India', buys directly from farmers; Gulf News: produces masalas and spices under Peacock brand",
     "evidence_urls": [
      "https://www.khaleejtimes.com/article/uniting-two-nations",
-     "https://gulfnews.com/business/gulf-food-al-adil-trading---a-familiar-name-in-every-indian-household-in-the-uae-1.1644724171207"
+     "https://gulfnews.com/business/gulf-food-al-adil-trading---a-familiar-name-in-every-indian-household-in-the-uae-1.1644724171207",
+     "https://www.tridge.com/find-suppliers/supplies/SUY-778C166D"
     ]
    },
    {
@@ -898,9 +901,11 @@
   ],
   "source_urls": [],
   "research_date": "2026-11-10",
-  "notes_verified": "Chairman Dr Dhananjay Datar. Official website and contacts not yet verified. Press articles are 2022.",
+  "notes_verified": "Chairman Dr Dhananjay Datar. Official website and contacts not yet verified. Press articles are 2022. Directory lists adildubai.com and adilstore.com; neither checked yet.",
   "notes_assessment": "Large Indian-food importer; whether 'Datar and Sons Limited LLC' (turmeric importer) is related is NOT confirmed, kept as separate record.",
-  "discovered_by": "manual"
+  "discovered_by": "manual",
+  "phone": "+971 4 370 6666",
+  "address": "Mezzanine Floor, near Pak Regis Hotel, Karama, Dubai, PO Box 52409 (2021 directory)"
  },
  {
   "company_id": "AE-bayara",
@@ -1027,5 +1032,164 @@
   "discovered_by": "manual",
   "notes_verified": "US customs rows on importkey.com show pulses exports to the USA (2026). Official website not found yet.",
   "notes_assessment": "Large Indian-origin processor; strong prospect once current spice range and contacts are confirmed."
+ },
+ {
+  "company_id": "AE-omega",
+  "name": "Omega Spices Trading Co. LLC",
+  "country": "United Arab Emirates",
+  "business_category": "wholesaler, importer",
+  "independent_sources": [
+   "https://www.foodcodirectory.com/2021/10/uae-spices-importers-distributors.html"
+  ],
+  "products": [
+   {
+    "product": "turmeric_fingers",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Turmeric, Form & Cut: Whole'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-21993B9A"
+    ],
+    "sources_from_india": true
+   }
+  ],
+  "source_urls": [
+   "https://dir.tridge.com/products/product-country/turmeric1-united-arab-emirates"
+  ],
+  "research_date": "2026-11-10",
+  "discovered_by": "manual",
+  "notes_verified": "Directory (2021): wholesale seller of spices and spice powders, imports from India, Burma, Canada; Ajman head office, Dubai shop at Al Ras.",
+  "notes_assessment": "Listed as a seller on a marketplace; may be a re-exporter. Needs website, contacts and import evidence."
+ },
+ {
+  "company_id": "AE-sabbar",
+  "name": "Sabbar Foodstuff Trading Est.",
+  "country": "United Arab Emirates",
+  "business_category": "trader",
+  "independent_sources": [],
+  "products": [
+   {
+    "product": "turmeric_fingers",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Polished | Form & Cut: Powder, Whole'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-92ACF36B"
+    ]
+   },
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Form & Cut: Powder, Whole'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-92ACF36B"
+    ]
+   }
+  ],
+  "source_urls": [
+   "https://dir.tridge.com/products/product-country/turmeric1-united-arab-emirates"
+  ],
+  "research_date": "2026-11-10",
+  "discovered_by": "manual",
+  "notes_verified": "",
+  "notes_assessment": "Listed as a seller on a marketplace; may be a re-exporter. Needs website, contacts and import evidence."
+ },
+ {
+  "company_id": "AE-robust",
+  "name": "Robust Trade Links DMCC",
+  "country": "United Arab Emirates",
+  "business_category": "trader",
+  "independent_sources": [],
+  "products": [
+   {
+    "product": "turmeric_fingers",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Dried Turmeric Finger, Form & Cut: Finger, Powder'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-34318383"
+    ]
+   },
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Form & Cut: Finger, Powder'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-34318383"
+    ]
+   }
+  ],
+  "source_urls": [
+   "https://dir.tridge.com/products/product-country/turmeric1-united-arab-emirates"
+  ],
+  "research_date": "2026-11-10",
+  "discovered_by": "manual",
+  "notes_verified": "",
+  "notes_assessment": "Listed as a seller on a marketplace; may be a re-exporter. Needs website, contacts and import evidence."
+ },
+ {
+  "company_id": "AE-greenglobal",
+  "name": "Green Global Trading LLC",
+  "country": "United Arab Emirates",
+  "business_category": "importer, distributor",
+  "independent_sources": [
+   "https://www.foodcodirectory.com/2021/10/uae-spices-importers-distributors.html"
+  ],
+  "products": [
+   {
+    "product": "turmeric_fingers",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Dried Turmeric Fingers, Form & Cut: Finger'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-7C0D3D6F"
+    ],
+    "sources_from_india": true
+   },
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Turmeric Powder, Form & Cut: Powder'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-BB45C7F9"
+    ],
+    "sources_from_india": true
+   }
+  ],
+  "source_urls": [
+   "https://dir.tridge.com/products/product-country/turmeric1-united-arab-emirates"
+  ],
+  "research_date": "2026-11-10",
+  "discovered_by": "manual",
+  "notes_verified": "Directory (2021): importer and distributor, Al Sayedi Bldg, Ajman; imports from India, Pakistan, China, Vietnam and others.",
+  "notes_assessment": "Listed as a seller on a marketplace; may be a re-exporter. Needs website, contacts and import evidence."
+ },
+ {
+  "company_id": "AE-divya",
+  "name": "Divya Industries Grain Processing & Packing",
+  "country": "United Arab Emirates",
+  "business_category": "processor, packer",
+  "independent_sources": [],
+  "products": [
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Marketplace self-listing: 'Turmeric Powder, Form & Cut: Ground, Powder'",
+    "evidence_text": "Tridge seller listing (self-declared, supplementary only; not proof of imports)",
+    "evidence_urls": [
+     "https://www.tridge.com/find-suppliers/supplies/SUY-005309FB"
+    ]
+   }
+  ],
+  "source_urls": [
+   "https://dir.tridge.com/products/product-country/turmeric1-united-arab-emirates"
+  ],
+  "research_date": "2026-11-10",
+  "discovered_by": "manual",
+  "notes_verified": "",
+  "notes_assessment": "Listed as a seller on a marketplace; may be a re-exporter. Needs website, contacts and import evidence."
  }
 ]
