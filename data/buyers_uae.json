@@ -1,0 +1,812 @@
+[
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-spicestar",
+  "name": "Spice Star Foodstuff Trading LLC",
+  "city": "Dubai (Al Ras, Deira)",
+  "address": "Office 201, Al Hashmi Building, Opp. Al Ras Metro Station, Al Ras, Deira, PO Box 65089, Dubai",
+  "website": "https://spicestar.ae/",
+  "website_checked": true,
+  "business_category": "importer / exporter, wholesaler",
+  "distribution_network": "Claims to serve over 85 countries; offices in India and UAE",
+  "general_email": "info@spicestar.ae",
+  "phone": "+971 4 226 3637",
+  "contact_page": "https://spicestar.ae/contact-us/",
+  "catalogue_url": "https://spicestar.ae/products/",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/spice-star-foodstuff-trading-llc"
+  ],
+  "products": [
+   {
+    "product": "turmeric_fingers",
+    "evidence": "catalogue_exact",
+    "forms": "Turmeric Finger (whole)",
+    "sources_from_india": true,
+    "supplier_countries": "India, Vietnam, Indonesia, China, Syria, Turkey (company-wide spice origins)",
+    "evidence_text": "Lists Turmeric Finger on product page; Gulfood 2026 exhibitor (whole & ground spices)",
+    "evidence_urls": [
+     "https://spicestar.ae/products/",
+     "https://spicestar.ae/"
+    ]
+   },
+   {
+    "product": "turmeric_powder",
+    "evidence": "catalogue_exact",
+    "forms": "Turmeric Powder",
+    "sources_from_india": true,
+    "supplier_countries": "India, Vietnam, Indonesia, China, Syria, Turkey (company-wide)",
+    "evidence_text": "Lists Turmeric Powder on product page",
+    "evidence_urls": [
+     "https://spicestar.ae/products/"
+    ]
+   },
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Whole: black pepper, green & black cardamom, cloves, cumin seed, coriander seed, fennel seed, star anise, cassia whole/split/tube",
+    "sources_from_india": true,
+    "supplier_countries": "India, Vietnam, Indonesia, China, Syria, Turkey",
+    "evidence_text": "Full whole-spice range on product page; separate powder lines also listed",
+    "evidence_urls": [
+     "https://spicestar.ae/products/"
+    ]
+   },
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashew nuts (grade not stated)",
+    "sources_from_india": true,
+    "supplier_countries": "Dry fruits from USA, Chile, India, China, Turkey, Argentina",
+    "evidence_text": "Cashew Nuts listed on product page",
+    "evidence_urls": [
+     "https://spicestar.ae/products/"
+    ]
+   }
+  ],
+  "source_urls": [
+   "https://spicestar.ae/about-us/"
+  ],
+  "notes_verified": "Dubai Chamber member, founded 2013 (about page). Self-described importer and exporter.",
+  "notes_assessment": "Strongest UAE fit across all four categories; Indian-run spice house in the Al Ras spice market. Shipment volumes not verified."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-kafla",
+  "name": "Kafla Trading LLC",
+  "city": "Dubai",
+  "website": "https://kaflauae.com/",
+  "website_checked": true,
+  "business_category": "importer, exporter, wholesaler, retailer",
+  "distribution_network": "Own logistics and storage facilities (self-stated)",
+  "general_email": "info@kaflauae.com",
+  "phone": "+971 4 252 2701",
+  "contact_page": "https://kaflauae.com/about_us#contact_us",
+  "catalogue_url": "https://kaflauae.com/products",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/kafla-trading-llc"
+  ],
+  "products": [
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Turmeric (form not stated)",
+    "evidence_text": "Turmeric listed on products page; whole vs ground not stated",
+    "evidence_urls": [
+     "https://kaflauae.com/products"
+    ]
+   },
+   {
+    "product": "turmeric_fingers",
+    "evidence": "category_only",
+    "forms": "Turmeric (form not stated)",
+    "evidence_text": "Turmeric listed; form not stated",
+    "evidence_urls": [
+     "https://kaflauae.com/products"
+    ]
+   },
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Cumin seed; cardamom, black pepper (form not stated)",
+    "evidence_text": "Cardamom, black pepper, cumin seed on products page",
+    "evidence_urls": [
+     "https://kaflauae.com/products"
+    ]
+   },
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashew kernel (grade not stated)",
+    "evidence_text": "Cashew Kernel listed",
+    "evidence_urls": [
+     "https://kaflauae.com/products"
+    ]
+   }
+  ],
+  "notes_verified": "Gulfood 2026 exhibitor (North Hall 7, N7-D12). Origin countries not named."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-fido",
+  "name": "FIDO Trading LLC",
+  "city": "Dubai (Al Ras, Deira)",
+  "address": "M02, Al Hashmi Bldg, opp. Al Ras Metro Station, Al Ras, Deira",
+  "website": "https://fidoco.ae/",
+  "website_checked": true,
+  "business_category": "importer, wholesaler",
+  "general_email": "fidoco@eim.ae",
+  "phone": "+971 4 226 4022",
+  "contact_page": "https://fidoco.ae/contact/",
+  "catalogue_url": "https://fidoco.ae/products/",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/fido-trading-llc-1"
+  ],
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Whole: cassia whole & tube, star aniseed, cardamom pods, cumin seeds, fennel seeds",
+    "sources_from_india": true,
+    "supplier_countries": "USA, India, Singapore, Chile, China, Vietnam (company-wide)",
+    "evidence_text": "Gulfood: 'Imports are mainly from USA, India, Singapore, Chile, China and Vietnam'; whole spices on site",
+    "evidence_urls": [
+     "https://www.gulfood.com/exhibitors/fido-trading-llc-1",
+     "https://fidoco.ae/"
+    ]
+   },
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashew nuts (grade not stated)",
+    "sources_from_india": true,
+    "supplier_countries": "USA, India, Singapore, Chile, China, Vietnam (company-wide)",
+    "evidence_text": "Cashew Nuts listed on site and Gulfood",
+    "evidence_urls": [
+     "https://fidoco.ae/"
+    ]
+   }
+  ],
+  "notes_verified": "Established January 2011 (Gulfood). Explicit statement of imports from India."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-goldenrise",
+  "name": "Golden Rise Trading L.L.C.",
+  "city": "Dubai (Al Ras, Deira)",
+  "address": "Office 101, Al Fajar Building, opp. Al Ras Metro Station, Al Ras, Deira, PO Box 3596, Dubai",
+  "website": "https://www.golden-rise.com/",
+  "website_checked": true,
+  "business_category": "importer / exporter, wholesaler, processor (cleaning, grading, packing)",
+  "distribution_network": "NITRA retail brand in 1,000+ UAE outlets; offices in Madagascar, Kenya, Tanzania, Benin; sourcing unit in India (self-stated)",
+  "general_email": "grdubai@gmail.com",
+  "phone": "+971 4 235 4007",
+  "contact_page": "https://www.golden-rise.com/contact.html",
+  "independent_sources": [
+   "https://www.foodcodirectory.com/2021/10/uae-spices-importers-distributors.html"
+  ],
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Cloves (whole implied, not stated)",
+    "shipment_volume": "Cloves 2,000+ MT/year (self-declared 'indicative', not shipment data)",
+    "sources_from_india": true,
+    "supplier_countries": "Madagascar, Kenya, Tanzania, Benin, India",
+    "evidence_text": "Site states cloves 2,000+ MT per year from Madagascar; India sourcing unit",
+    "evidence_urls": [
+     "https://www.golden-rise.com/"
+    ]
+   }
+  ],
+  "notes_verified": "Self-declared volumes only. Canonical domain goldenrisetrading.com differs from golden-rise.com.",
+  "notes_assessment": "Bulk origin trader rather than a buyer of Indian product for most lines; relevant for cloves/whole spices and possibly turmeric (spices page not yet read)."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-springvalley",
+  "name": "Spring Valley General Trading Co. LLC",
+  "city": "Dubai (Al Ras)",
+  "address": "Shop 4, Al Ras Centre Building, Al Ras, PO Box 29836, Dubai",
+  "website": "https://www.svtdxb.com/",
+  "website_checked": true,
+  "business_category": "wholesaler, manufacturer, trader",
+  "general_email": "info@svtdxb.com",
+  "phone": "+971 4 229 1554",
+  "contact_page": "https://www.svtdxb.com/spring-contactus",
+  "independent_sources": [
+   "https://www.foodcodirectory.com/2021/10/uae-spices-importers-distributors.html"
+  ],
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Cumin seeds; 'Spices & Powders' category",
+    "evidence_text": "Cumin Seeds and spices category on homepage",
+    "evidence_urls": [
+     "https://www.svtdxb.com/"
+    ]
+   },
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashew nuts (grade not stated)",
+    "evidence_text": "Cashew Nuts on homepage",
+    "evidence_urls": [
+     "https://www.svtdxb.com/"
+    ]
+   }
+  ],
+  "notes_verified": "Operates across GCC and India (homepage). Products, processing pages not yet read."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-tulsidas",
+  "name": "Tulsidas Lalchand General Trading L.L.C.",
+  "city": "Dubai (Ras Al Khor Industrial Area 2)",
+  "address": "Building 42, Ras Al Khor Industrial Area 2, Dubai",
+  "website": "https://www.tulsidas.com/",
+  "website_checked": true,
+  "business_category": "importer and distributor (HORECA, retail, wholesale, export)",
+  "distribution_network": "40,000 sq ft ambient/chilled/frozen warehouse; exports to GCC, Africa, South Asia; since 1870 (self-stated)",
+  "general_email": "trade@tulsidas.com",
+  "phone": "+971 4 353 3736",
+  "linkedin": "https://www.linkedin.com/company/tulsidas",
+  "contact_page": "https://www.tulsidas.com/contact",
+  "independent_sources": [
+   "https://www.foodcodirectory.com/2021/10/uae-spices-importers-distributors.html",
+   "https://dir.tridge.com/suppliers/category-country/spices-united-arab-emirates"
+  ],
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Whole black peppercorn, whole cardamom, cinnamon (Tridge listing); 'whole spices, ground blends' (site)",
+    "evidence_text": "Site category 'Whole spices, ground blends & masalas'; Tridge lists whole pepper & cardamom",
+    "evidence_urls": [
+     "https://www.tulsidas.com/",
+     "https://dir.tridge.com/suppliers/category-country/spices-united-arab-emirates"
+    ]
+   },
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Turmeric (form not stated, Tridge)",
+    "evidence_text": "Turmeric on Tridge listing",
+    "evidence_urls": [
+     "https://dir.tridge.com/suppliers/category-country/spices-united-arab-emirates"
+    ]
+   },
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashews (grade not stated)",
+    "evidence_text": "Site category 'Almonds, cashews, pistachios & dried fruits'",
+    "evidence_urls": [
+     "https://www.tulsidas.com/"
+    ]
+   }
+  ],
+  "notes_verified": "ISO 22000:2018 and HACCP (self-stated)."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-kahraman",
+  "name": "Kahraman Agro DMCC",
+  "city": "Dubai (JLT)",
+  "address": "Office 2105, Mazaya Business Avenue BB2, JLT, Dubai",
+  "website": "https://www.kahramanagro.net/",
+  "website_checked": true,
+  "business_category": "processor and supplier (nuts)",
+  "distribution_network": "6 processing plants, 40+ countries, 200 employees (site); BRC, FSSC 22000",
+  "general_email": "contact@kahramanagro.net",
+  "phone": "+971 4 718 1288",
+  "contact_page": "https://www.kahramanagro.net/contact-us",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/kahraman-agro-dmcc-1"
+  ],
+  "products": [
+   {
+    "product": "cashew_kernels",
+    "evidence": "category_only",
+    "forms": "Cashews (Gulfood only; not on own site)",
+    "evidence_text": "Cashews listed in Gulfood profile; own site lists pistachio, almond, sesame only",
+    "evidence_urls": [
+     "https://www.gulfood.com/exhibitors/kahraman-agro-dmcc-1"
+    ]
+   }
+  ],
+  "notes_assessment": "Large nut processor but cashew relevance is weak; pistachio/almond focused."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-harvest",
+  "name": "Harvest Food L.L.C",
+  "city": "Dubai (Al Ras, Deira)",
+  "address": "Shop 04, Al Ahmadiya St, Al Ras, Deira",
+  "website": "https://harvest-food.com/",
+  "website_checked": true,
+  "business_category": "wholesaler",
+  "linkedin": "https://www.linkedin.com/company/harvestfood/",
+  "distribution_network": "Supplies wholesalers, repackers, supermarkets, food manufacturers across Middle East, Africa, Asia (Gulfood)",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/harvest-foods-llc"
+  ],
+  "products": [
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashews (grade not stated)",
+    "evidence_text": "Site description names cashews; Iranian pistachio focus",
+    "evidence_urls": [
+     "https://harvest-food.com/"
+    ]
+   }
+  ],
+  "notes_verified": "'Trusted since 1997' (site meta). Contact page not yet read."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-jameel",
+  "name": "Al Jameel International Foodstuff Trading LLC",
+  "city": "Dubai",
+  "business_category": "manufacturer and trader (nuts, spices, pulses)",
+  "distribution_network": "GCC, Turkey, Egypt operations; 45+ export markets; automated processing lines (Gulfood Manufacturing)",
+  "independent_sources": [
+   "https://www.gulfoodmanufacturing.com/exhibitors/jameel-international-foodstuff-trading-llc",
+   "https://www.foodcodirectory.com/2021/10/uae-spices-importers-distributors.html"
+  ],
+  "products": [
+   {
+    "product": "cashew_kernels",
+    "evidence": "catalogue_exact",
+    "forms": "Cashew processing line",
+    "evidence_text": "'automated processing lines for ... cashews, cardamom'",
+    "evidence_urls": [
+     "https://www.gulfoodmanufacturing.com/exhibitors/jameel-international-foodstuff-trading-llc"
+    ]
+   },
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Cardamom (form not stated)",
+    "evidence_text": "Cardamom processing line",
+    "evidence_urls": [
+     "https://www.gulfoodmanufacturing.com/exhibitors/jameel-international-foodstuff-trading-llc"
+    ]
+   }
+  ],
+  "notes_verified": "Official website not found yet."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-ugarit",
+  "name": "Ugarit Foodstuff Trading LLC",
+  "city": "Dubai (Al Ras, Deira)",
+  "address": "Shop 3, Toufiq G Building, Al Ras, Deira",
+  "website": "http://www.ugaritllc.com",
+  "website_checked": false,
+  "business_category": "importer, wholesaler",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/ugarit-foodstuff-trading-llc-1"
+  ],
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black pepper, HS 090411 (whole)",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking: #4 UAE spice importer 2025, 5.36% share, HS 090411",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ]
+   }
+  ],
+  "notes_verified": "Website returned server error on 10 Nov 2026."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-jayanti",
+  "name": "Jayanti Herbs & Spice DMCC",
+  "city": "Dubai",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black pepper whole (090411); also ground pepper and ground cinnamon",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 7.00% share, HS 090411, 090412, 090620",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ],
+    "sources_from_india": true
+   }
+  ],
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified. Jayanti Herbs & Spice group: ~1,000 staff, farms/processing in India, Vietnam, Turkey (ingredientsnetwork). UAE DMCC entity link to the group not confirmed.",
+  "independent_sources": [
+   "https://ingredientsnetwork.com/jayanti-herbs-spice-comp249064.html"
+  ]
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-jhs",
+  "name": "J H S DMCC",
+  "city": "Dubai",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black pepper whole, cinnamon whole (090611)",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 6.36% share, HS 090411, 090412, 090611",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ]
+   }
+  ],
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-ankit",
+  "name": "Ankit General Trading LLC",
+  "city": "Dubai",
+  "business_category": "importer, exporter, commission agent",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black & white pepper (500-580 G/L, 5mm bold), cassia sticks/split, Lalpari cloves",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 5.21% share, HS 090411, 090611",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ],
+    "supplier_countries": "Vietnam, Brazil (site)",
+    "sources_from_india": false
+   }
+  ],
+  "notes_verified": "TradeInt 2025 customs ranking 5.21%. Spices sourced from Vietnam/Brazil per site; no India origin stated. Since 2002.",
+  "website": "https://www.ankitgt.com/",
+  "website_checked": true,
+  "general_email": "info@ankitgtllc.com",
+  "phone": "+971 4 353 8961",
+  "contact_page": "https://www.ankitgt.com/contact",
+  "catalogue_url": "https://www.ankitgt.com/spices",
+  "address": "Al Fahidi Street, Dubai",
+  "independent_sources": [
+   "https://bestfoodimporters.com/company/ankit-general-trading-llc/"
+  ]
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-ninjagulf",
+  "name": "Ninja Gulf General Trading FZCO",
+  "city": "Dubai (Al Ras, Deira; Jebel Ali; Al Aweer warehouse)",
+  "business_category": "importer and distributor (commodities, FMCG)",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black pepper whole, cassia whole; cardamom from India (site)",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 4.80% share, HS 090411, 090619",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ],
+    "sources_from_india": true,
+    "supplier_countries": "Cardamom: India, Guatemala; black pepper: Brazil, Vietnam (site)"
+   }
+  ],
+  "notes_verified": "TradeInt 2025 customs ranking 4.80% of UAE spice imports. Gulfood lists related entity Ninja Foodstuff LLC (Shop 9, Al Ras); legal entity link not confirmed. India office in Palanpur, Gujarat.",
+  "website": "https://ninjagroup.com/",
+  "website_checked": true,
+  "address": "20 Al Ahmadiya St, Al Ras, Deira, Dubai",
+  "general_email": "foodstuff@ninjagroup.com",
+  "phone": "+971 4 294 7550",
+  "contact_page": "https://www.ninjagroup.com/contact-us/",
+  "distribution_network": "5 countries, 10,000+ containers shipped, warehouse in Al Aweer (self-stated)",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/ninja-foodstuff-llc-1",
+   "https://panjiva.com/Ninja-Foodstuff-Llc/115211494"
+  ],
+  "source_urls": [
+   "https://ninjagroup.com/"
+  ]
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-expo",
+  "name": "Expo Commodities DMCC",
+  "city": "Dubai (JLT)",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Cassia whole, fennel/anise/star anise seeds",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 4.40% share, HS 090619, 090961, 091011",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ]
+   }
+  ],
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified.",
+  "address": "Unit 2306, Fortune Tower, Cluster C, JLT, PO Box 243183, Dubai",
+  "independent_sources": [
+   "https://panjiva.com/Exp-Commodities-Dmcc/61971755"
+  ]
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-asimpex",
+  "name": "AS Impex General Trading FZCO",
+  "city": "Dubai",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black pepper whole",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 2.66% share, HS 090411",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ]
+   }
+  ],
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-jiana",
+  "name": "Jiana Food Industries FZE (Dubai Branch)",
+  "city": "Dubai",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Black pepper whole",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 2.42% share, HS 090411",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ]
+   }
+  ],
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-wegrow",
+  "name": "Wegrow General Trading LLC",
+  "city": "Dubai",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "shipment",
+    "forms": "Cassia whole",
+    "last_shipment_date": "2025 (year only)",
+    "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 2.69% share, HS 090619",
+    "evidence_urls": [
+     "https://tradeint.com/insights/importers-of-spices-in-uae/"
+    ]
+   }
+  ],
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-datar",
+  "name": "Datar and Sons Limited L.L.C.",
+  "city": "",
+  "business_category": "importer",
+  "products": [
+   {
+    "product": "turmeric_powder",
+    "evidence": "shipment_form_unknown",
+    "forms": "HS 091030; whole vs ground not shown",
+    "last_shipment_date": "2026-07",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
+    "evidence_urls": [
+     "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
+    ]
+   },
+   {
+    "product": "turmeric_fingers",
+    "evidence": "shipment_form_unknown",
+    "forms": "HS 091030; whole vs ground not shown",
+    "last_shipment_date": "2026-07",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
+    "evidence_urls": [
+     "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
+    ]
+   }
+  ],
+  "notes_verified": "Shipment teaser names the importer only; volumes are behind a paywall. Website/contacts not yet verified."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-alsouq",
+  "name": "Al Souq Spices Packaging (SPS) LLC",
+  "city": "Ajman (New Industrial Area)",
+  "business_category": "importer, processor (grinding), packer",
+  "products": [
+   {
+    "product": "turmeric_powder",
+    "evidence": "shipment_form_unknown",
+    "forms": "Grinder: turmeric powder is a stated core product; imports likely whole for grinding (assessment)",
+    "last_shipment_date": "2026-07",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
+    "evidence_urls": [
+     "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
+    ]
+   },
+   {
+    "product": "turmeric_fingers",
+    "evidence": "shipment_form_unknown",
+    "forms": "HS 091030 from India; company grinds turmeric, so whole fingers are a plausible input (not confirmed)",
+    "last_shipment_date": "2026-07",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
+    "evidence_urls": [
+     "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
+    ]
+   }
+  ],
+  "notes_verified": "Named in TradeInt HS 091030 India import teaser (Jul 2026). Site: leading in spice powders 'mainly chilly and turmeric powder', grinding and automatic packing machines, 15 years.",
+  "website": "https://alsouqspices.com/",
+  "website_checked": true,
+  "address": "New Industrial Area, Ajman, PO Box 5994",
+  "general_email": "alsouqspice@yahoo.com",
+  "phone": "+971 55 553 7448",
+  "contact_page": "https://alsouqspices.com/contact.php",
+  "catalogue_url": "https://alsouqspices.com/products.php",
+  "distribution_network": "Supplies catering, restaurants, supermarkets, groceries, bulk container buyers; HACCP (site)",
+  "independent_sources": [
+   "https://bestfoodimporters.com/company/al-souq-spices-packaging-l-l-c/"
+  ],
+  "notes_assessment": "Best UAE match for both turmeric forms: imports turmeric from India and grinds it."
+ },
+ {
+  "country": "United Arab Emirates",
+  "research_date": "2026-11-10",
+  "company_id": "AE-lulu",
+  "name": "Lulu Hypermarket LLC",
+  "city": "",
+  "business_category": "retailer (hypermarket chain), importer",
+  "products": [
+   {
+    "product": "turmeric_powder",
+    "evidence": "shipment_form_unknown",
+    "forms": "HS 091030; whole vs ground not shown",
+    "last_shipment_date": "2026-07",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
+    "evidence_urls": [
+     "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
+    ]
+   },
+   {
+    "product": "turmeric_fingers",
+    "evidence": "shipment_form_unknown",
+    "forms": "HS 091030; whole vs ground not shown",
+    "last_shipment_date": "2026-07",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
+    "evidence_urls": [
+     "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
+    ]
+   }
+  ],
+  "notes_verified": "Shipment teaser names the importer only; volumes are behind a paywall. Website/contacts not yet verified."
+ },
+ {
+  "company_id": "AE-malkat",
+  "name": "Malkat Al Baharat Foodstuff Trading LLC",
+  "country": "United Arab Emirates",
+  "city": "Dubai (Al Ras)",
+  "address": "Al Ali Bldg 9, Al Ras, Dubai (site); Gulfood lists Hor Al Anz East",
+  "website": "https://malkatalbaharat.com/",
+  "website_checked": true,
+  "business_category": "importer, distributor (spices)",
+  "distribution_network": "Authorised MENA distributor of Indian and Guatemalan green cardamom brands; own Rabbaana black pepper brand distributed across MENA (site/Gulfood)",
+  "general_email": "info@malkatalbaharat.com",
+  "phone": "+971 4 570 1224",
+  "independent_sources": [
+   "https://www.gulfood.com/exhibitors/malkat-al-baharat-foodstuff-trading-co-llc-1"
+  ],
+  "products": [
+   {
+    "product": "whole_spices",
+    "evidence": "catalogue_exact",
+    "forms": "Indian green cardamom, black pepper, cloves, nutmeg, mace (form not stated)",
+    "sources_from_india": true,
+    "supplier_countries": "Cardamom: India, Guatemala; pepper: Vietnam, India, Brazil",
+    "evidence_text": "Product pages list Indian Green Cardamom; black pepper sourced from Vietnam, India, Brazil",
+    "evidence_urls": [
+     "https://malkatalbaharat.com/about.php",
+     "https://malkatalbaharat.com/blackpepper.php"
+    ]
+   }
+  ],
+  "source_urls": [],
+  "research_date": "2026-11-10",
+  "notes_verified": "Site copyright 2012, blog 2021: freshness uncertain.",
+  "notes_assessment": "Strong cardamom and pepper buyer of Indian origin."
+ },
+ {
+  "company_id": "AE-aladil",
+  "name": "Al Adil Trading Co. LLC",
+  "country": "United Arab Emirates",
+  "city": "Dubai",
+  "business_category": "importer, retailer, distributor, spice/masala manufacturer (Peacock brand)",
+  "distribution_network": "30+ outlets; supplies Dubai Duty Free, 5-star hotels, caterers; 9,000-9,500 food items from India (press)",
+  "independent_sources": [
+   "https://www.khaleejtimes.com/article/uniting-two-nations",
+   "https://gulfnews.com/business/gulf-food-al-adil-trading---a-familiar-name-in-every-indian-household-in-the-uae-1.1644724171207"
+  ],
+  "products": [
+   {
+    "product": "turmeric_powder",
+    "evidence": "category_only",
+    "forms": "Produces spices & masalas under Peacock brand; outlets have grinding mills",
+    "sources_from_india": true,
+    "supplier_countries": "India (buys directly from Indian farmers)",
+    "evidence_text": "Khaleej Times 2022: 'more than 9,500 items of food stuff from India', buys directly from farmers; Gulf News: produces masalas and spices under Peacock brand",
+    "evidence_urls": [
+     "https://www.khaleejtimes.com/article/uniting-two-nations",
+     "https://gulfnews.com/business/gulf-food-al-adil-trading---a-familiar-name-in-every-indian-household-in-the-uae-1.1644724171207"
+    ]
+   },
+   {
+    "product": "whole_spices",
+    "evidence": "category_only",
+    "forms": "Indian spices (form not stated)",
+    "sources_from_india": true,
+    "supplier_countries": "India",
+    "evidence_text": "Indian food importer; spices under Peacock brand",
+    "evidence_urls": [
+     "https://www.khaleejtimes.com/article/uniting-two-nations"
+    ]
+   }
+  ],
+  "source_urls": [],
+  "research_date": "2026-11-10",
+  "notes_verified": "Chairman Dr Dhananjay Datar. Official website and contacts not yet verified. Press articles are 2022.",
+  "notes_assessment": "Large Indian-food importer; whether 'Datar and Sons Limited LLC' (turmeric importer) is related is NOT confirmed, kept as separate record."
+ }
+]

@@ -1,0 +1,13 @@
+[
+ {"source":"UN Comtrade public API","status":"Blocked","detail":"comtradeapi.un.org refused requests from this environment","date":"2026-11-10"},
+ {"source":"TrendEconomy (UN Comtrade-based)","status":"Used","detail":"Heading-level UAE imports 2012-2023, partner shares; no quantities","date":"2026-11-10"},
+ {"source":"Tridge market pages","status":"Partly used","detail":"6-digit UAE import totals for 091030 and 080132 (2023). Company names masked; full data needs Tridge Eye account","date":"2026-11-10"},
+ {"source":"WITS (World Bank)","status":"Failed","detail":"Page renders by JavaScript only; no table returned","date":"2026-11-10"},
+ {"source":"Volza","status":"Blocked","detail":"Site refused automated fetch; shipment data is paid. No account available","date":"2026-11-10"},
+ {"source":"TradeInt","status":"Blocked","detail":"Site refused automated fetch","date":"2026-11-10"},
+ {"source":"ImportYeti","status":"Not applicable for UAE","detail":"Covers US customs bills of lading only; will be used for USA research","date":"2026-11-10"},
+ {"source":"Panjiva / ImportGenius / ITC Trade Map","status":"Not accessed","detail":"Paid or login-only; no authorised account","date":"2026-11-10"},
+ {"source":"Hunter / Apollo / Snov / RocketReach / NeverBounce","status":"Not accessed","detail":"No authorised integration; only emails published on company sites or official directories are recorded","date":"2026-11-10"},
+ {"source":"Gulfood exhibitor directory","status":"Partly used","detail":"Directory index returned server error; individual exhibitor pages readable","date":"2026-11-10"},
+ {"source":"Tridge supplier directory","status":"Supplementary","detail":"Self-declared profiles; not proof of import activity","date":"2026-11-10"}
+]

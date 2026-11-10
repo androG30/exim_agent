@@ -1,0 +1,602 @@
+[
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 1,
+  "country": "USA",
+  "year": 2023,
+  "import_value_usd_m": 50.82,
+  "imports_from_india_usd_m": 33.0,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 2,
+  "country": "India",
+  "year": 2023,
+  "import_value_usd_m": 15.41,
+  "imports_from_india_usd_m": "n/a",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 3,
+  "country": "Germany",
+  "year": 2023,
+  "import_value_usd_m": 15.02,
+  "imports_from_india_usd_m": 8.86,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 4,
+  "country": "Malaysia",
+  "year": 2023,
+  "import_value_usd_m": 12.91,
+  "imports_from_india_usd_m": 10.7,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 5,
+  "country": "Morocco",
+  "year": 2023,
+  "import_value_usd_m": 12.73,
+  "imports_from_india_usd_m": 12.6,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 6,
+  "country": "China",
+  "year": 2023,
+  "import_value_usd_m": 11.36,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 7,
+  "country": "Netherlands",
+  "year": 2023,
+  "import_value_usd_m": 11.2,
+  "imports_from_india_usd_m": 6.05,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 8,
+  "country": "United Kingdom",
+  "year": 2023,
+  "import_value_usd_m": 11.11,
+  "imports_from_india_usd_m": 8.69,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 9,
+  "country": "Saudi Arabia",
+  "year": 2023,
+  "import_value_usd_m": 10.43,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 10,
+  "country": "United Arab Emirates",
+  "year": 2023,
+  "import_value_usd_m": 10.13,
+  "imports_from_india_usd_m": 9.57,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 11,
+  "country": "Japan",
+  "year": 2023,
+  "import_value_usd_m": 9.32,
+  "imports_from_india_usd_m": 6.64,
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 12,
+  "country": "Canada",
+  "year": 2023,
+  "import_value_usd_m": 7.8,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 13,
+  "country": "France",
+  "year": 2023,
+  "import_value_usd_m": 6.93,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 14,
+  "country": "Brazil",
+  "year": 2023,
+  "import_value_usd_m": 5.94,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 15,
+  "country": "Spain",
+  "year": 2023,
+  "import_value_usd_m": 5.11,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 16,
+  "country": "South Africa",
+  "year": 2023,
+  "import_value_usd_m": 5.06,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 17,
+  "country": "Indonesia",
+  "year": 2023,
+  "import_value_usd_m": 4.57,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 18,
+  "country": "Australia",
+  "year": 2023,
+  "import_value_usd_m": 4.13,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 19,
+  "country": "Tunisia",
+  "year": 2023,
+  "import_value_usd_m": 2.98,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Turmeric (powder + fingers)",
+  "hs": "091030",
+  "rank": 20,
+  "country": "Oman",
+  "year": 2023,
+  "import_value_usd_m": 2.62,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/091030"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 1,
+  "country": "USA",
+  "year": 2023,
+  "import_value_usd_m": 842.97,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 2,
+  "country": "Germany",
+  "year": 2023,
+  "import_value_usd_m": 423.63,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 3,
+  "country": "Netherlands",
+  "year": 2023,
+  "import_value_usd_m": 301.29,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 4,
+  "country": "China",
+  "year": 2023,
+  "import_value_usd_m": 246.04,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 5,
+  "country": "United Arab Emirates",
+  "year": 2023,
+  "import_value_usd_m": 210.0,
+  "imports_from_india_usd_m": 105,
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 6,
+  "country": "United Kingdom",
+  "year": 2023,
+  "import_value_usd_m": 142.22,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 7,
+  "country": "Turkey",
+  "year": 2023,
+  "import_value_usd_m": 130.0,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 8,
+  "country": "France",
+  "year": 2023,
+  "import_value_usd_m": 120.38,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 9,
+  "country": "Spain",
+  "year": 2023,
+  "import_value_usd_m": 103.25,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 10,
+  "country": "Saudi Arabia",
+  "year": 2023,
+  "import_value_usd_m": 99.79,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 11,
+  "country": "Australia",
+  "year": 2023,
+  "import_value_usd_m": 92.35,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 12,
+  "country": "Japan",
+  "year": 2023,
+  "import_value_usd_m": 90.04,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 13,
+  "country": "Canada",
+  "year": 2023,
+  "import_value_usd_m": 87.01,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 14,
+  "country": "Italy",
+  "year": 2023,
+  "import_value_usd_m": 78.69,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 15,
+  "country": "Thailand",
+  "year": 2023,
+  "import_value_usd_m": 73.63,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 16,
+  "country": "Poland",
+  "year": 2023,
+  "import_value_usd_m": 62.97,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 17,
+  "country": "Israel",
+  "year": 2023,
+  "import_value_usd_m": 38.12,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 18,
+  "country": "Switzerland",
+  "year": 2023,
+  "import_value_usd_m": 28.57,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 19,
+  "country": "Czechia",
+  "year": 2023,
+  "import_value_usd_m": 28.53,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Cashew kernels",
+  "hs": "080132",
+  "rank": 20,
+  "country": "Morocco",
+  "year": 2023,
+  "import_value_usd_m": 28.32,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/080132"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 1,
+  "country": "USA",
+  "year": 2023,
+  "import_value_usd_m": 196.4,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 2,
+  "country": "India",
+  "year": 2023,
+  "import_value_usd_m": 162.68,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 3,
+  "country": "United Arab Emirates",
+  "year": 2023,
+  "import_value_usd_m": 79.09,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 4,
+  "country": "Germany",
+  "year": 2023,
+  "import_value_usd_m": 78.74,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 5,
+  "country": "France",
+  "year": 2023,
+  "import_value_usd_m": 40.04,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 6,
+  "country": "Egypt",
+  "year": 2023,
+  "import_value_usd_m": 37.45,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 7,
+  "country": "Pakistan",
+  "year": 2023,
+  "import_value_usd_m": 37.18,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 8,
+  "country": "China",
+  "year": 2023,
+  "import_value_usd_m": 36.58,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 9,
+  "country": "Japan",
+  "year": 2023,
+  "import_value_usd_m": 32.54,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 10,
+  "country": "Netherlands",
+  "year": 2023,
+  "import_value_usd_m": 29.27,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 11,
+  "country": "Morocco",
+  "year": 2023,
+  "import_value_usd_m": 25.98,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 12,
+  "country": "Philippines",
+  "year": 2023,
+  "import_value_usd_m": 24.39,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 13,
+  "country": "Canada",
+  "year": 2023,
+  "import_value_usd_m": 23.82,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 14,
+  "country": "Thailand",
+  "year": 2023,
+  "import_value_usd_m": 23.29,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 15,
+  "country": "Poland",
+  "year": 2023,
+  "import_value_usd_m": 22.7,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 16,
+  "country": "Turkey",
+  "year": 2023,
+  "import_value_usd_m": 21.25,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 17,
+  "country": "United Kingdom",
+  "year": 2023,
+  "import_value_usd_m": 20.82,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 18,
+  "country": "Saudi Arabia",
+  "year": 2023,
+  "import_value_usd_m": 19.99,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 19,
+  "country": "Spain",
+  "year": 2023,
+  "import_value_usd_m": 19.72,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ },
+ {
+  "product": "Whole spices: black pepper",
+  "hs": "090411",
+  "rank": 20,
+  "country": "Italy",
+  "year": 2023,
+  "import_value_usd_m": 17.32,
+  "imports_from_india_usd_m": "not stated",
+  "source": "https://trendeconomy.com/data/commodity_h2/090411"
+ }
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "product": "Turmeric",
+  "country": "USA",
+  "2023_usd_m": 50.82,
+  "2024_usd_m_tridge": 56.18,
+  "2024_tonnes_tridge": 13666,
+  "2025_usd_m_worldstopexports": 59.9
+ },
+ {
+  "product": "Turmeric",
+  "country": "India",
+  "2023_usd_m": 15.41,
+  "2024_usd_m_tridge": 42.15,
+  "2024_tonnes_tridge": 23648,
+  "2025_usd_m_worldstopexports": 28.7
+ },
+ {
+  "product": "Turmeric",
+  "country": "Germany",
+  "2023_usd_m": 15.02,
+  "2024_usd_m_tridge": 12.55,
+  "2024_tonnes_tridge": 3867,
+  "2025_usd_m_worldstopexports": 25.1
+ },
+ {
+  "product": "Turmeric",
+  "country": "Malaysia",
+  "2023_usd_m": 12.91,
+  "2024_usd_m_tridge": 19.94,
+  "2024_tonnes_tridge": 9873,
+  "2025_usd_m_worldstopexports": 19.0
+ },
+ {
+  "product": "Turmeric",
+  "country": "Morocco",
+  "2023_usd_m": 12.73,
+  "2024_usd_m_tridge": null,
+  "2024_tonnes_tridge": null,
+  "2025_usd_m_worldstopexports": 27.3
+ },
+ {
+  "product": "Turmeric",
+  "country": "China",
+  "2023_usd_m": 11.36,
+  "2024_usd_m_tridge": null,
+  "2024_tonnes_tridge": null,
+  "2025_usd_m_worldstopexports": 19.9
+ },
+ {
+  "product": "Turmeric",
+  "country": "Netherlands",
+  "2023_usd_m": 11.2,
+  "2024_usd_m_tridge": 13.31,
+  "2024_tonnes_tridge": 5384,
+  "2025_usd_m_worldstopexports": 19.7
+ },
+ {
+  "product": "Turmeric",
+  "country": "United Kingdom",
+  "2023_usd_m": 11.11,
+  "2024_usd_m_tridge": 11.81,
+  "2024_tonnes_tridge": 4060,
+  "2025_usd_m_worldstopexports": 16.6
+ },
+ {
+  "product": "Turmeric",
+  "country": "Saudi Arabia",
+  "2023_usd_m": 10.43,
+  "2024_usd_m_tridge": null,
+  "2024_tonnes_tridge": null,
+  "2025_usd_m_worldstopexports": 17.4
+ },
+ {
+  "product": "Turmeric",
+  "country": "United Arab Emirates",
+  "2023_usd_m": 10.13,
+  "2024_usd_m_tridge": null,
+  "2024_tonnes_tridge": null,
+  "2025_usd_m_worldstopexports": 33.7
+ },
+ {
+  "product": "Turmeric",
+  "country": "Japan",
+  "2023_usd_m": 9.32,
+  "2024_usd_m_tridge": 11.58,
+  "2024_tonnes_tridge": 4510,
+  "2025_usd_m_worldstopexports": null
+ },
+ {
+  "product": "Turmeric",
+  "country": "Canada",
+  "2023_usd_m": 7.8,
+  "2024_usd_m_tridge": 8.19,
+  "2024_tonnes_tridge": 2169,
+  "2025_usd_m_worldstopexports": 11.3
+ },
+ {
+  "product": "Turmeric",
+  "country": "Bangladesh",
+  "2023_usd_m": null,
+  "2024_usd_m_tridge": null,
+  "2024_tonnes_tridge": null,
+  "2025_usd_m_worldstopexports": 36.5
+ }
+]
