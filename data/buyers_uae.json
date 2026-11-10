@@ -28,7 +28,9 @@
     "evidence_urls": [
      "https://spicestar.ae/products/",
      "https://spicestar.ae/"
-    ]
+    ],
+    "form_evidence": "catalogue",
+    "form_evidence_url": "https://spicestar.ae/products/"
    },
    {
     "product": "turmeric_powder",
@@ -39,7 +41,9 @@
     "evidence_text": "Lists Turmeric Powder on product page",
     "evidence_urls": [
      "https://spicestar.ae/products/"
-    ]
+    ],
+    "form_evidence": "catalogue",
+    "form_evidence_url": "https://spicestar.ae/products/"
    },
    {
     "product": "whole_spices",
@@ -68,7 +72,8 @@
    "https://spicestar.ae/about-us/"
   ],
   "notes_verified": "Dubai Chamber member, founded 2013 (about page). Self-described importer and exporter.",
-  "notes_assessment": "Strongest UAE fit across all four categories; Indian-run spice house in the Al Ras spice market. Shipment volumes not verified."
+  "notes_assessment": "Strongest UAE fit across all four categories; Indian-run spice house in the Al Ras spice market. Shipment volumes not verified.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -125,7 +130,8 @@
     ]
    }
   ],
-  "notes_verified": "Gulfood 2026 exhibitor (North Hall 7, N7-D12). Origin countries not named."
+  "notes_verified": "Gulfood 2026 exhibitor (North Hall 7, N7-D12). Origin countries not named.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -169,7 +175,8 @@
     ]
    }
   ],
-  "notes_verified": "Established January 2011 (Gulfood). Explicit statement of imports from India."
+  "notes_verified": "Established January 2011 (Gulfood). Explicit statement of imports from India.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -203,7 +210,8 @@
    }
   ],
   "notes_verified": "Self-declared volumes only. Canonical domain goldenrisetrading.com differs from golden-rise.com.",
-  "notes_assessment": "Bulk origin trader rather than a buyer of Indian product for most lines; relevant for cloves/whole spices and possibly turmeric (spices page not yet read)."
+  "notes_assessment": "Bulk origin trader rather than a buyer of Indian product for most lines; relevant for cloves/whole spices and possibly turmeric (spices page not yet read).",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -241,7 +249,8 @@
     ]
    }
   ],
-  "notes_verified": "Operates across GCC and India (homepage). Products, processing pages not yet read."
+  "notes_verified": "Operates across GCC and India (homepage). Products, processing pages not yet read.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -292,7 +301,8 @@
     ]
    }
   ],
-  "notes_verified": "ISO 22000:2018 and HACCP (self-stated)."
+  "notes_verified": "ISO 22000:2018 and HACCP (self-stated).",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -322,7 +332,8 @@
     ]
    }
   ],
-  "notes_assessment": "Large nut processor but cashew relevance is weak; pistachio/almond focused."
+  "notes_assessment": "Large nut processor but cashew relevance is weak; pistachio/almond focused.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -350,7 +361,8 @@
     ]
    }
   ],
-  "notes_verified": "'Trusted since 1997' (site meta). Contact page not yet read."
+  "notes_verified": "'Trusted since 1997' (site meta). Contact page not yet read.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -384,7 +396,8 @@
     ]
    }
   ],
-  "notes_verified": "Official website not found yet."
+  "notes_verified": "Official website not found yet.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -408,10 +421,13 @@
     "evidence_text": "TradeInt customs-based ranking: #4 UAE spice importer 2025, 5.36% share, HS 090411",
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
-    ]
+    ],
+    "ranking_evidence": "#4 UAE spice importer 2025 by customs-based share (5.36%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
-  "notes_verified": "Website returned server error on 10 Nov 2026."
+  "notes_verified": "Website returned server error on 10 Nov 2026.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -430,13 +446,16 @@
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
     ],
-    "sources_from_india": true
+    "sources_from_india": true,
+    "ranking_evidence": "#2 UAE spice importer 2025 by customs-based share (7.00%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
   "notes_verified": "Customs-based import share only; website and contacts not yet verified. Jayanti Herbs & Spice group: ~1,000 staff, farms/processing in India, Vietnam, Turkey (ingredientsnetwork). UAE DMCC entity link to the group not confirmed.",
   "independent_sources": [
    "https://ingredientsnetwork.com/jayanti-herbs-spice-comp249064.html"
-  ]
+  ],
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -454,10 +473,13 @@
     "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 6.36% share, HS 090411, 090412, 090611",
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
-    ]
+    ],
+    "ranking_evidence": "#3 UAE spice importer 2025 by customs-based share (6.36%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
-  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -477,7 +499,9 @@
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
     ],
     "supplier_countries": "Vietnam, Brazil (site)",
-    "sources_from_india": false
+    "sources_from_india": false,
+    "ranking_evidence": "#5 UAE spice importer 2025 by customs-based share (5.21%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
   "notes_verified": "TradeInt 2025 customs ranking 5.21%. Spices sourced from Vietnam/Brazil per site; no India origin stated. Since 2002.",
@@ -490,7 +514,8 @@
   "address": "Al Fahidi Street, Dubai",
   "independent_sources": [
    "https://bestfoodimporters.com/company/ankit-general-trading-llc/"
-  ]
+  ],
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -510,7 +535,9 @@
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
     ],
     "sources_from_india": true,
-    "supplier_countries": "Cardamom: India, Guatemala; black pepper: Brazil, Vietnam (site)"
+    "supplier_countries": "Cardamom: India, Guatemala; black pepper: Brazil, Vietnam (site)",
+    "ranking_evidence": "#6 UAE spice importer 2025 by customs-based share (4.80%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
   "notes_verified": "TradeInt 2025 customs ranking 4.80% of UAE spice imports. Gulfood lists related entity Ninja Foodstuff LLC (Shop 9, Al Ras); legal entity link not confirmed. India office in Palanpur, Gujarat.",
@@ -527,7 +554,8 @@
   ],
   "source_urls": [
    "https://ninjagroup.com/"
-  ]
+  ],
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -545,14 +573,17 @@
     "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 4.40% share, HS 090619, 090961, 091011",
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
-    ]
+    ],
+    "ranking_evidence": "#7 UAE spice importer 2025 by customs-based share (4.40%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
   "notes_verified": "Customs-based import share only; website and contacts not yet verified.",
   "address": "Unit 2306, Fortune Tower, Cluster C, JLT, PO Box 243183, Dubai",
   "independent_sources": [
    "https://panjiva.com/Exp-Commodities-Dmcc/61971755"
-  ]
+  ],
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -570,10 +601,13 @@
     "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 2.66% share, HS 090411",
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
-    ]
+    ],
+    "ranking_evidence": "#9 UAE spice importer 2025 by customs-based share (2.66%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
-  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -591,10 +625,13 @@
     "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 2.42% share, HS 090411",
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
-    ]
+    ],
+    "ranking_evidence": "#10 UAE spice importer 2025 by customs-based share (2.42%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
-  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -612,10 +649,13 @@
     "evidence_text": "TradeInt customs-based ranking of UAE spice importers 2025: 2.69% share, HS 090619",
     "evidence_urls": [
      "https://tradeint.com/insights/importers-of-spices-in-uae/"
-    ]
+    ],
+    "ranking_evidence": "#8 UAE spice importer 2025 by customs-based share (2.69%), TradeInt",
+    "ranking_evidence_url": "https://tradeint.com/insights/importers-of-spices-in-uae/"
    }
   ],
-  "notes_verified": "Customs-based import share only; website and contacts not yet verified."
+  "notes_verified": "Customs-based import share only; website and contacts not yet verified.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -650,7 +690,8 @@
     ]
    }
   ],
-  "notes_verified": "Shipment teaser names the importer only; volumes are behind a paywall. Website/contacts not yet verified."
+  "notes_verified": "Shipment teaser names the importer only; volumes are behind a paywall. Website/contacts not yet verified.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -663,19 +704,21 @@
    {
     "product": "turmeric_powder",
     "evidence": "shipment_form_unknown",
-    "forms": "Grinder: turmeric powder is a stated core product; imports likely whole for grinding (assessment)",
+    "forms": "Turmeric powder (site: 'leading ... in spices powder mainly chilly and turmeric powder'); customs record HS 091030",
     "last_shipment_date": "2026-07",
     "sources_from_india": true,
     "supplier_countries": "India",
     "evidence_text": "Named importer of HS 091030 (turmeric) from India in TradeInt shipment teaser dated 18 Jul 2026",
     "evidence_urls": [
      "https://www.tradeint.com/search/uae/import-data/hs-code/091030/"
-    ]
+    ],
+    "form_evidence": "catalogue",
+    "form_evidence_url": "https://alsouqspices.com/"
    },
    {
     "product": "turmeric_fingers",
     "evidence": "shipment_form_unknown",
-    "forms": "HS 091030 from India; company grinds turmeric, so whole fingers are a plausible input (not confirmed)",
+    "forms": "HS 091030 customs record only; whole form not evidenced",
     "last_shipment_date": "2026-07",
     "sources_from_india": true,
     "supplier_countries": "India",
@@ -697,7 +740,8 @@
   "independent_sources": [
    "https://bestfoodimporters.com/company/al-souq-spices-packaging-l-l-c/"
   ],
-  "notes_assessment": "Best UAE match for both turmeric forms: imports turmeric from India and grinds it."
+  "notes_assessment": "Best UAE match for both turmeric forms: imports turmeric from India and grinds it.",
+  "discovered_by": "manual"
  },
  {
   "country": "United Arab Emirates",
@@ -732,7 +776,8 @@
     ]
    }
   ],
-  "notes_verified": "Shipment teaser names the importer only; volumes are behind a paywall. Website/contacts not yet verified."
+  "notes_verified": "Shipment teaser names the importer only; volumes are behind a paywall. Website/contacts not yet verified.",
+  "discovered_by": "manual"
  },
  {
   "company_id": "AE-malkat",
@@ -766,7 +811,8 @@
   "source_urls": [],
   "research_date": "2026-11-10",
   "notes_verified": "Site copyright 2012, blog 2021: freshness uncertain.",
-  "notes_assessment": "Strong cardamom and pepper buyer of Indian origin."
+  "notes_assessment": "Strong cardamom and pepper buyer of Indian origin.",
+  "discovered_by": "manual"
  },
  {
   "company_id": "AE-aladil",
@@ -807,6 +853,7 @@
   "source_urls": [],
   "research_date": "2026-11-10",
   "notes_verified": "Chairman Dr Dhananjay Datar. Official website and contacts not yet verified. Press articles are 2022.",
-  "notes_assessment": "Large Indian-food importer; whether 'Datar and Sons Limited LLC' (turmeric importer) is related is NOT confirmed, kept as separate record."
+  "notes_assessment": "Large Indian-food importer; whether 'Datar and Sons Limited LLC' (turmeric importer) is related is NOT confirmed, kept as separate record.",
+  "discovered_by": "manual"
  }
 ]

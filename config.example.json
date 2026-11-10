@@ -1,0 +1,10 @@
+{
+  "search_provider": "google_cse",
+  "results_per_query": 10,
+  "max_queries_per_job": 12,
+  "max_candidates_per_job": 40,
+  "max_pages_per_company": 5,
+  "min_delay_seconds": 1.0,
+  "max_attempts": 3,
+  "cache_ttl_days": 14
+}

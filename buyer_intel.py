@@ -84,6 +84,14 @@ class ProductRelevance:
     sources_from_india: Optional[bool] = None
     evidence_text: str = ""
     evidence_urls: list = field(default_factory=list)
+    # Product-form evidence (required for turmeric, see TURMERIC_PRODUCTS):
+    #   "catalogue"            - company catalogue/product page names the exact form
+    #   "shipment_description" - a shipment record's goods description names the form
+    form_evidence: str = ""
+    form_evidence_url: str = ""
+    # Customs-derived importer ranking (e.g. "#4 of UAE pepper importers 2025, 5.36% share")
+    ranking_evidence: str = ""
+    ranking_evidence_url: str = ""
 
 
 @dataclass
@@ -111,12 +119,14 @@ class Company:
     research_date: str = ""
     notes_verified: str = ""          # verified facts only
     notes_assessment: str = ""        # AI assessment, kept separate
+    discovered_by: str = ""           # manual | search:<provider> | trade:<source>
 
     @staticmethod
     def from_dict(d: dict) -> "Company":
         d = dict(d)
-        d["products"] = [ProductRelevance(**p) for p in d.get("products", [])]
-        return Company(**d)
+        known = set(ProductRelevance.__dataclass_fields__)
+        d["products"] = [ProductRelevance(**{k: v for k, v in p.items() if k in known}) for p in d.get("products", [])]
+        return Company(**{k: v for k, v in d.items() if k in Company.__dataclass_fields__})
 
 
 # --------------------------------------------------------------------------
@@ -131,6 +141,37 @@ SHIPMENT_EVIDENCE = ("shipment", "shipment_form_unknown")
 # shipment_form_unknown: customs record under the right HS code, but whole vs ground
 # (turmeric) or kernel grade cannot be told from the public record.
 
+# HS 0910.30 covers whole AND ground turmeric. A turmeric record therefore only
+# counts as exact-product evidence when separate form evidence exists.
+TURMERIC_PRODUCTS = ("turmeric_powder", "turmeric_fingers")
+
+
+def effective_evidence(pr: ProductRelevance) -> str:
+    """Evidence level after applying the turmeric product-form rule.
+
+    For turmeric powder / fingers:
+      * a shipment record without form evidence -> shipment_form_unknown
+      * a catalogue match without form evidence -> category_only
+    Form evidence must come from a catalogue or a detailed shipment description,
+    never from the HS code alone.
+    """
+    ev = pr.evidence or ""
+    if pr.product in TURMERIC_PRODUCTS and not pr.form_evidence:
+        if ev == "shipment":
+            return "shipment_form_unknown"
+        if ev == "catalogue_exact":
+            return "category_only"
+    if pr.product in TURMERIC_PRODUCTS and ev == "shipment_form_unknown" and pr.form_evidence:
+        # detailed shipment description names the form -> full shipment evidence;
+        # catalogue names the form -> exact product via catalogue (import record kept separately)
+        return "shipment" if pr.form_evidence == "shipment_description" else "catalogue_exact"
+    return ev
+
+
+def exact_product_confirmed(pr: ProductRelevance) -> bool:
+    return effective_evidence(pr) in ("shipment", "catalogue_exact") or (
+        effective_evidence(pr) == "shipment_form_unknown" and pr.product not in TURMERIC_PRODUCTS)
+
 
 def _recent(date: str, research_date: str, months: int = 24) -> bool:
     m1 = re.match(r"(\d{4})-(\d{2})", date or "")
@@ -142,16 +183,22 @@ def _recent(date: str, research_date: str, months: int = 24) -> bool:
     return 0 <= b - a <= months
 
 
+def has_import_record(pr: ProductRelevance) -> bool:
+    """A customs/shipment record or a customs-derived ranking exists for this product."""
+    return (pr.evidence or "") in SHIPMENT_EVIDENCE or bool(pr.ranking_evidence)
+
+
 def score(c: Company, pr: ProductRelevance) -> dict:
+    ev = effective_evidence(pr)
     s = {}
-    s["product_relevance"] = PRODUCT_EVIDENCE_POINTS.get(pr.evidence, 0)
+    s["product_relevance"] = PRODUCT_EVIDENCE_POINTS.get(ev, 0)
 
     cat = (c.business_category or "").lower()
     s["buyer_type"] = max([v for k, v in BUYER_TYPE_POINTS.items() if k in cat], default=0)
 
-    if pr.evidence in SHIPMENT_EVIDENCE and pr.last_shipment_date and _recent(pr.last_shipment_date, c.research_date):
+    if has_import_record(pr) and pr.last_shipment_date and _recent(pr.last_shipment_date, c.research_date):
         ia = 20
-    elif pr.evidence in SHIPMENT_EVIDENCE:
+    elif has_import_record(pr):
         ia = 12
     elif "importer" in cat and c.independent_sources:
         ia = 6     # self-declared importer confirmed by an independent listing, no shipment data
@@ -186,20 +233,30 @@ def score(c: Company, pr: ProductRelevance) -> dict:
 
 
 def verification_status(c: Company, pr: ProductRelevance) -> str:
-    checks = [c.website_checked, bool(c.independent_sources), pr.evidence in SHIPMENT_EVIDENCE + ("catalogue_exact",)]
+    checks = [c.website_checked, bool(c.independent_sources), exact_product_confirmed(pr)]
     n = sum(checks)
     return "Verified" if n == 3 else "Partially verified" if n >= 1 else "Unverified"
 
 
+SIZE_A = "A. Confirmed large importer"
+SIZE_B = "B. Confirmed importer, volume unknown"
+SIZE_C = "C. Established distributor / wholesaler"
+SIZE_D = "D. Potential buyer requiring verification"
+
+
 def size_class(c: Company, pr: ProductRelevance) -> str:
-    if pr.evidence in SHIPMENT_EVIDENCE and (pr.shipment_count or pr.shipment_volume):
-        return "A. Large verified importer" if (pr.shipment_count or 0) >= 10 or pr.shipment_volume else "C. Potential bulk buyer"
+    """A needs shipment volume (or >=10 shipments) or a customs-derived ranking.
+    B needs a shipment/customs record but no volume. C needs a checked website,
+    a trade role and independent or distribution evidence. Everything else is D."""
+    if has_import_record(pr) and (pr.shipment_volume or (pr.shipment_count or 0) >= 10 or pr.ranking_evidence):
+        return SIZE_A
+    if has_import_record(pr):
+        return SIZE_B
     cat = (c.business_category or "").lower()
-    if c.website_checked and c.distribution_network and any(k in cat for k in ("distributor", "wholesaler", "importer")):
-        return "B. Established distributor"
-    if c.website_checked and any(k in cat for k in ("importer", "wholesaler", "processor", "manufacturer", "packer")):
-        return "C. Potential bulk buyer"
-    return "D. Buyer requiring further verification"
+    if c.website_checked and any(k in cat for k in ("distributor", "wholesaler", "importer")) \
+            and (c.independent_sources or c.distribution_network):
+        return SIZE_C
+    return SIZE_D
 
 
 # --------------------------------------------------------------------------
@@ -219,21 +276,39 @@ def norm_domain(url: str) -> str:
 
 
 def dedupe(companies: list[Company]) -> list[Company]:
-    by_key: dict[str, Company] = {}
+    """Merge records of the same company (same country, and same website domain or
+    same normalised name). Product relevance is kept per product; scalar contact
+    fields are filled from the duplicate only when empty."""
+    out: list[Company] = []
+    by_dom: dict[str, Company] = {}
+    by_name: dict[str, Company] = {}
     for c in companies:
-        key = (norm_domain(c.website) or norm_name(c.name)) + "|" + c.country.lower()
-        if key in by_key:
-            base = by_key[key]
-            have = {p.product for p in base.products}
-            base.products += [p for p in c.products if p.product not in have]
+        ctry = c.country.lower()
+        dk = norm_domain(c.website) + "|" + ctry if c.website else None
+        nk = norm_name(c.name) + "|" + ctry
+        base = (by_dom.get(dk) if dk else None) or by_name.get(nk)
+        if base is None:
+            out.append(c)
+            base = c
+        else:
+            have = {p.product: p for p in base.products}
+            for p in c.products:
+                if p.product not in have:
+                    base.products.append(p)
+                else:
+                    have[p.product].evidence_urls = list(dict.fromkeys(have[p.product].evidence_urls + p.evidence_urls))
             base.source_urls = sorted(set(base.source_urls + c.source_urls))
             base.independent_sources = sorted(set(base.independent_sources + c.independent_sources))
-            for f in ("general_email", "sales_email", "purchasing_contact", "phone", "linkedin", "address", "city"):
+            for f in ("website", "general_email", "sales_email", "purchasing_contact", "procurement_manager", "phone",
+                      "linkedin", "address", "city", "contact_page", "catalogue_url", "distribution_network"):
                 if not getattr(base, f) and getattr(c, f):
                     setattr(base, f, getattr(c, f))
-        else:
-            by_key[key] = c
-    return list(by_key.values())
+            base.website_checked = base.website_checked or c.website_checked
+        if base.website:
+            by_dom[norm_domain(base.website) + "|" + ctry] = base
+        by_name[nk] = base
+        by_name[norm_name(base.name) + "|" + ctry] = base
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -244,7 +319,7 @@ COLUMNS = [
     "Public business email", "Purchasing department contact", "Telephone", "LinkedIn",
     "Import activity evidence", "Shipment volume", "Last shipment date", "Supplier countries",
     "Buyer size classification", "Lead score", "Priority", "Verification status", "Source URLs",
-    "Research date", "Product form / grades", "Score breakdown", "AI assessment (not verified)",
+    "Research date", "Product form / grades", "Product evidence level", "Ranking evidence", "Score breakdown", "AI assessment (not verified)",
 ]
 
 
@@ -275,6 +350,8 @@ def rows_for(companies: list[Company]) -> list[dict]:
                 "Source URLs": " | ".join(dict.fromkeys(pr.evidence_urls + c.source_urls)),
                 "Research date": c.research_date,
                 "Product form / grades": "; ".join(x for x in (pr.forms, pr.grades) if x),
+                "Product evidence level": effective_evidence(pr),
+                "Ranking evidence": pr.ranking_evidence,
                 "Score breakdown": ", ".join(f"{k}={v}" for k, v in sc.items() if k not in ("total", "priority")),
                 "AI assessment (not verified)": c.notes_assessment,
             })
@@ -290,20 +367,26 @@ def write_csv(path: Path, rows: list[dict]):
             w.writerow({**r, "S.No": i})
 
 
-def load_json(name: str):
-    p = DATA / name
+def load_json(name: str, data_dir: Path = None):
+    p = Path(data_dir or DATA) / name
     return json.loads(p.read_text()) if p.exists() else []
 
 
-def build():
-    OUT.mkdir(exist_ok=True)
-    companies = dedupe([Company.from_dict(d) for f in sorted(DATA.glob("buyers_*.json")) for d in json.loads(f.read_text())])
+def load_companies(data_dir: Path = None) -> list:
+    data_dir = Path(data_dir or DATA)
+    return dedupe([Company.from_dict(d) for f in sorted(data_dir.glob("buyers_*.json")) for d in json.loads(f.read_text())])
+
+
+def build(data_dir: Path = None, out_dir: Path = None):
+    data_dir, out_dir = Path(data_dir or DATA), Path(out_dir or OUT)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    companies = load_companies(data_dir)
     rows = rows_for(companies)
-    rankings = load_json("country_rankings.json")   # list of dicts per product/country
-    limits = load_json("research_log.json")
+    rankings = load_json("country_rankings.json", data_dir)   # list of dicts per product/country
+    limits = load_json("research_log.json", data_dir)
 
     # per product x country CSVs
-    per = OUT / "by_product_country"
+    per = out_dir / "by_product_country"
     per.mkdir(exist_ok=True)
     groups: dict[tuple, list] = {}
     for r in rows:
@@ -311,7 +394,7 @@ def build():
     for (p, ctry), rs in groups.items():
         write_csv(per / f"{p}__{ctry.replace(' ', '_')}.csv", rs)
 
-    write_csv(OUT / "consolidated_buyers.csv", rows)
+    write_csv(out_dir / "consolidated_buyers.csv", rows)
 
     # Excel workbook
     from openpyxl import Workbook
@@ -366,8 +449,10 @@ def build():
         keys = list(limits[0].keys())
         table(lg, keys, [[r.get(k) for k in keys] for r in limits])
 
-    wb.save(OUT / "VVE_Global_Buyer_Intelligence.xlsx")
-    print(f"{len(companies)} companies, {len(rows)} product-buyer rows, {len(groups)} product-country lists")
+    wb.save(out_dir / "VVE_Global_Buyer_Intelligence.xlsx")
+    msg = f"{len(companies)} companies, {len(rows)} product-buyer rows, {len(groups)} product-country lists"
+    print(msg)
+    return {"companies": len(companies), "rows": len(rows), "lists": len(groups)}
 
 
 if __name__ == "__main__":
